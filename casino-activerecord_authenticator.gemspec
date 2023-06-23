@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'coveralls'
 
   s.add_runtime_dependency 'activerecord' # , '>= 4.1.0', '< 4.3.0'
-  s.add_runtime_dependency 'unix-crypt', '~> 1.1'
-  s.add_runtime_dependency 'bcrypt', '~> 3.1.7'
+  s.add_runtime_dependency 'unix-crypt', '>= 1.1'
+  s.add_runtime_dependency 'bcrypt', '>= 3.1.7'
   s.add_runtime_dependency 'casino' # , '>= 3.0.0', '< 5.0.0'
-  s.add_runtime_dependency 'phpass-ruby', '~> 0.1'
+  s.add_runtime_dependency 'phpass-ruby' #, '~> 0.1'
 end
